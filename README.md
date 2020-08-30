@@ -61,6 +61,18 @@ Input: Tree json like this below
     }
 ]
 ```
+And the definition of Node:
+
+``` text
+interface Node {
+    id: number;
+    name: string;
+    children: number[];
+    parent: number | null;
+  }
+
+type NodeArray = Node[];
+```
 Output: 
 Represent Tree json as a graph like:
 

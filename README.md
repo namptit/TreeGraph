@@ -2,6 +2,8 @@
 Represent a tree json as a graph
 
 Input: Tree json like this below
+
+```json
 [
     {
       "id": 52,
@@ -58,10 +60,11 @@ Input: Tree json like this below
       "children": [52,53]
     }
 ]
-
+```
 Output: 
 Represent Tree json as a graph like:
 
+``` text
 CUSTOMER GROUP
 ├─ BU-FRANCE
 │  ├─ BU-QUAL
@@ -71,7 +74,7 @@ CUSTOMER GROUP
    ├─ BU-QUAL
    ├─ BU-BUSINESS
    └─ BU-HR
-   
+```
    
 ##################################################
 

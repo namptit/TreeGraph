@@ -37,19 +37,19 @@ Input: Tree json like this below
     },
     {
       "id": 61,
-      "name": "BU-QUAL",
+      "name": "BU-QUAL1",
       "parent": 53,
       "children": []
     },
     {
       "id": 62,
-      "name": "BU-BUSINESS",
+      "name": "BU-BUSINESS1",
       "parent": 53,
       "children": []
     },
     {
       "id": 63,
-      "name": "BU-HR",
+      "name": "BU-HR1",
       "parent": 53,
       "children": []
     },
@@ -79,13 +79,13 @@ Represent Tree json as a graph like:
 ``` text
 CUSTOMER GROUP
 ├─ BU-FRANCE
-│  ├─ BU-QUAL
-│  ├─ BU-BUSINESS
-│  └─ BU-HR
+|  └─ BU-QUAL
+|     ├─ BU-BUSINESS
+|     └─ BU-HR
 └─ BU-GERMANY
-   ├─ BU-QUAL
-   ├─ BU-BUSINESS
-   └─ BU-HR
+   ├─ BU-QUAL1
+   ├─ BU-BUSINESS1
+   └─ BU-HR1
 ```
    
 ##################################################

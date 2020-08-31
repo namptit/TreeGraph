@@ -9,7 +9,7 @@ Input: Tree json like this below
       "id": 52,
       "name": "BU-FRANCE",
       "parent": 964,
-      "children": [58, 59, 60]
+      "children": [58]
     },
     {
       "id": 53,
@@ -21,18 +21,18 @@ Input: Tree json like this below
       "id": 58,
       "name": "BU-QUAL",
       "parent": 52,
-      "children": []
+      "children": [59, 60]
     },
     {
       "id": 59,
       "name": "BU-BUSINESS",
-      "parent": 52,
+      "parent": 58,
       "children": []
     },
     {
       "id": 60,
       "name": "BU-HR",
-      "parent": 52,
+      "parent": 58,
       "children": []
     },
     {
